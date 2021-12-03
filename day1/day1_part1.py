@@ -3,7 +3,7 @@ def main():
 
 def larger_than_previous():
     with open(r'C:\Users\Emilio\Documents\GitHub\advent_of_code2021\day1\day1_puzzle_input.txt') as fp:
-        list = []
+        list_of_nums = []
         line = fp.readline()
         while line:
             list = list + [int(line)]
