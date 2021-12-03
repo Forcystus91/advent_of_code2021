@@ -2,7 +2,7 @@ def main():
     print(three_measure_sliding_window())
 
 def three_measure_sliding_window():
-    with open('day1.txt') as fp:
+    with open(r'C:\Users\Emilio\Documents\GitHub\advent_of_code2021\day1\day1_puzzle_input.txt') as fp:
         text = fp.read()
         list = text.split()
         for i in range(len(list)):

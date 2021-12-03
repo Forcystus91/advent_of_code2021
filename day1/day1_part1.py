@@ -2,7 +2,7 @@ def main():
     print(larger_than_previous())
 
 def larger_than_previous():
-    with open('day1.txt') as fp:
+    with open(r'C:\Users\Emilio\Documents\GitHub\advent_of_code2021\day1\day1_puzzle_input.txt') as fp:
         list = []
         line = fp.readline()
         while line:
